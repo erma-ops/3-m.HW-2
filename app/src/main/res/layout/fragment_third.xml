@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <TextView
+        android:id="@+id/third_tv"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint="hello_first_fragment" />
+    <Button
+        android:id="@+id/btn_click3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="third_frag_click"
+        />
+
+
+</FrameLayout>
